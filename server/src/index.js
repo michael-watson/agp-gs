@@ -27,9 +27,10 @@ const typeDefs = gql`
   type Book {
     # title: String
     """
-    This is the new title
+    This is the title of the book
     """
-    title: String @deprecated (reason: "Reason")
+    title: String 
+    bookTitle: String @deprecated (reason: "Use the \`title\` field")
     author: String!
   }
 
