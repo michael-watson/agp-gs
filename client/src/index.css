@@ -1,0 +1,49 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.loading {
+  text-align: center;
+  font-weight: bold;
+  color: silver;
+  margin-top: 50px;
+}
+
+.authorList {
+  margin: 20px auto;
+  padding: 10px;
+  list-style: none;
+  text-align: left;
+  width: 50%;
+  float: left;
+}
+
+li {
+  padding: 10px;
+  margin: 10px 0 10px 0;
+  border: 1px solid #eee;
+  text-align: left;
+  border-radius: 5px;
+  box-shadow: 1px 2px 1px rgba(0,0,0,0.2);
+  float: none;
+  list-style: none;
+}
+
+i {
+  color: silver;
+}
+
+p {
+  word-wrap: break-word;
+}
